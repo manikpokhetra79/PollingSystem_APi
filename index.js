@@ -2,7 +2,7 @@ const express = require('express');
 const port = process.env.PORT;
 const cors = require('cors');
 const app = express();
-
+const db = require('./config/mongoose');
 //use cors
 app.use(cors());
 app.use('/', require('./routes/index'));
