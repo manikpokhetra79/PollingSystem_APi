@@ -28,30 +28,30 @@ API where anyone can create questions with options and also add votes to it.
 - /options/:id/add_vote (To increment the count of votes)
 - /questions/:id (To view a question and it’s options)
 
-|  ----------  |  ----------------------------------  |
-| Http Methods |                Routes                |
-|  ----------  |  ----------------------------------  |
-|     POST     |          /questions/create           |
-|  ----------  |  ----------------------------------  |
-|     POST     |    /questions/:id/options/create     |
-|  ----------  |  ----------------------------------  |
-|    DELETE    |        /questions/:id/delete         |
-|  ----------  |  ----------------------------------  |
-|    DELETE    |         /options/:id/delete          |
-|  ----------  |  ----------------------------------  |
-|     PUT      |        /options/:id/add_vote         |
-|  ----------  |  ----------------------------------  |
-|     GET      |            /questions/:id            |
+| ---------- | ---------------------------------- |
+| Http Methods | Routes |
+| ---------- | ---------------------------------- |
+| POST | /questions/create |
+| ---------- | ---------------------------------- |
+| POST | /questions/:id/options/create |
+| ---------- | ---------------------------------- |
+| DELETE | /questions/:id/delete |
+| ---------- | ---------------------------------- |
+| DELETE | /options/:id/delete |
+| ---------- | ---------------------------------- |
+| PUT | /options/:id/add_vote |
+| ---------- | ---------------------------------- |
+| GET | /questions/:id |
 
 ## Key to use while creating question and options
 
-*content* >> Creating question
-*content* >> Creating options
+- content >> Creating question
+- content >> Creating options
 
 # Directory Structure
 
-[/config] - Contains Database config file 
-[/controllers] - contains Controller files for questions and options
-[/model] - Contain Schema files for Question and Option Models
-[/routes] - contains all route files
-[index.js] - App entry point.
+- [/config] - Contains Database config file
+- [/controllers] - contains Controller files for questions and options
+- [/model] - Contain Schema files for Question and Option Models
+- [/routes] - contains all route files
+- [index.js] - App entry point
