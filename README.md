@@ -50,7 +50,7 @@ API where anyone can create questions with options and also add votes to it.
 
 # Directory Structure
 
-[/config] - Contains Database config file.
+[/config] - Contains Database config file 
 [/controllers] - contains Controller files for questions and options
 [/model] - Contain Schema files for Question and Option Models
 [/routes] - contains all route files
