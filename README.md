@@ -32,15 +32,15 @@ API where anyone can create questions with options and also add votes to it.
 | Http Methods |                Routes                |
 |              |     |
 |     POST     |          /questions/create           |
-|  ----------  |  ----------------------------------  |
+|              |     |
 |     POST     |    /questions/:id/options/create     |
-|  ----------  |  ----------------------------------  |
+|              |     |
 |    DELETE    |        /questions/:id/delete         |
-|  ----------  |  ----------------------------------  |
+|              |     |
 |    DELETE    |         /options/:id/delete          |
-|  ----------  |  ----------------------------------  |
+|              |     |
 |     PUT      |        /options/:id/add_vote         |
-|  ----------  |  ----------------------------------  |
+|              |     |
 |     GET      |            /questions/:id            |
 
 ## Key to use while creating question and options
