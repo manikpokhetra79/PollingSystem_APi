@@ -5,6 +5,11 @@ module.exports.deleteoption = async (req, res) => {
   try {
     //find option
     let option = await Option.findById(req.params.id);
+    if (option == null) {
+      return res.status(404).json({
+        message: 'Error : Option not found',
+      });
+    }
     if (option.vote > 0) {
       return res.status(405).json({
         message: 'Option cannot be deleted since it has some votes',
