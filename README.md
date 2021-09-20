@@ -29,7 +29,7 @@ API where anyone can create questions with options and also add votes to it.
 - /questions/:id (To view a question and it’s options)
 
 | Http Methods |                Routes                |
-|              |                                      |
+|  ----------  |  ----------------------------------  |
 |     POST     |          /questions/create           |
 | :----------: | :----------------------------------: |
 |     POST     |    /questions/:id/options/create     |
