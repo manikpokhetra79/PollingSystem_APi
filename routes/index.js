@@ -9,5 +9,5 @@ router.get('/', homeController.home);
 router.use('/questions', require('./questions'));
 
 //options route
-router.use('options', require('./options'));
+router.use('/options', require('./options'));
 module.exports = router;
