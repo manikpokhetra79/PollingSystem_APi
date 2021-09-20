@@ -28,9 +28,9 @@ API where anyone can create questions with options and also add votes to it.
 - /options/:id/add_vote (To increment the count of votes)
 - /questions/:id (To view a question and it’s options)
 
-|  ----------  |  ----------------------------------  |
+
 | Http Methods |                Routes                |
-|  ----------  |  ----------------------------------  |
+|              |     |
 |     POST     |          /questions/create           |
 |  ----------  |  ----------------------------------  |
 |     POST     |    /questions/:id/options/create     |
