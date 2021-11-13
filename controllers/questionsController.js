@@ -22,6 +22,7 @@ module.exports.create = async (req, res) => {
     console.log(error);
     return res.status(422).json({
       message: 'Error while creating question',
+      error : error
     });
   }
 };
